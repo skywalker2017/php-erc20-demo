@@ -1,0 +1,25 @@
+{
+    "name": "wangyuan/php-demo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Wangyuan\\PhpDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "skywalker2017",
+            "email": "1394375146@qq.com"
+        }
+    ],
+    "require": {
+        "lessmore92/php-erc20": "dev-main",
+        "web3p/web3.php": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/skywalker2017/php-erc20.git"
+        }
+    ]
+}
